@@ -9,7 +9,7 @@ export default function Home() {
         <title>Ross Kuyper</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
-      <h1>Hello</h1>
+      <h1>Testing Preview</h1>
     </div>
   )
 }
