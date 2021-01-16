@@ -4,7 +4,7 @@ import {Heading} from '../../../components/Heading/Heading'
 import {Link} from '../../../components/Link/Link'
 import {Text} from '../../../components/Text/Text'
 import {IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5'
-import styles from './intro.module.css'
+import styles from './Intro.module.css'
 import {LinkedIcon} from '../../../components/LinkedIcon/LinkedIcon'
 
 export const Intro = () => {
