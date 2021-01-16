@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {Intro} from '../sections/home/Intro/Intro'
+import {WorkSections} from '../sections/home/WorkSections/WorkSections'
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
 
       <div className={styles.main}>
         <Intro />
+
+        <WorkSections />
       </div>
     </>
   )
