@@ -1,0 +1,12 @@
+.workSections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 65rem;
+}
+
+.workSections > div {
+  width: 48%; /* fallback */
+  width: calc(50% - 1rem);
+}

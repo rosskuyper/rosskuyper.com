@@ -1,0 +1,12 @@
+.main {
+  padding: 2.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (min-width: 520px) and (max-width: 699px) {
+  .main {
+    padding: 2.5rem 1rem;
+  }
+}
