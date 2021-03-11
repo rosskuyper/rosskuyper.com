@@ -17,24 +17,26 @@ export const Intro = () => {
       <div className={styles.intro}>
         <Paragraph>
           I develop software, mostly using Node, React (&amp; Native), Terraform, Postgres and
-          DynamoDB; though I often dabble in other wonderful pieces of tech.
+          DynamoDB; though I love to dabble in other wonderful pieces of tech.
         </Paragraph>
 
         <Paragraph>
-          I'm the ex-CTO of{' '}
+          Until recently I was also the CTO of{' '}
           <Link target="_blank" href="https://www.namesandfaces.com">
             Names &amp; Faces
           </Link>
-          , a Y Combinator company that builds beautiful, fast employee directories.
+          , a Y Combinator company that builds beautiful, fast people directories that leaders need.
         </Paragraph>
 
         <Paragraph>
-          I'm currently enjoying the pro-leisure circuit while I figure out what's next. Below
-          you'll find some projects (software and otherwise) that I've been working on.
+          These days I'm mostly just enjoying the pro-leisure circuit while I figure out what's
+          next.
         </Paragraph>
 
         <Paragraph>
-          I'm also steadily writing out a{' '}
+          Below you'll find some projects and experiments that I've been working on.
+          <br />
+          I'm also (slowly) writing out a personal{' '}
           <Link target="_blank" href="https://handbook.rosskuyper.com">
             personal handbook
           </Link>

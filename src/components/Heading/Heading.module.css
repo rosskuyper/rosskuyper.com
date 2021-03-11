@@ -14,6 +14,7 @@
   composes: title;
   font-size: 1.625rem;
   font-weight: 600;
+  margin-block-end: 0.5em;
 }
 
 .h5 {
@@ -21,4 +22,24 @@
   font-size: 1rem;
   margin-block-end: 0;
   font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 2.5rem;
+  }
+
+  .h3 {
+    font-size: 1.375rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .h1 {
+    font-size: 1.875rem;
+  }
+
+  .h5 {
+    margin-block-end: 0.125rem;
+  }
 }

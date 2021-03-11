@@ -4,9 +4,23 @@
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 65rem;
+  margin-block-end: 3rem;
 }
 
 .workSections > div {
   width: 48%; /* fallback */
   width: calc(50% - 1rem);
+  margin-block-end: 1.875rem;
+}
+
+@media (max-width: 768px) {
+  .workSections > div {
+    width: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .workSections > div {
+    margin-block-end: 0.675rem;
+  }
 }

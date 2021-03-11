@@ -2,3 +2,9 @@
   max-width: 42rem;
   margin-block-end: 4rem;
 }
+
+@media (max-width: 450px) {
+  .intro {
+    margin-block-end: 2rem;
+  }
+}

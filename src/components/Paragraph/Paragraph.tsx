@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './Paragraph.module.css'
 
 export type ParagraphPropType = React.ComponentProps<'p'> & {
-  variant?: 'standard' | 'small'
+  variant?: 'standard' | 'small' | 'tiny'
 }
 
 export const Paragraph = (props: ParagraphPropType) => {

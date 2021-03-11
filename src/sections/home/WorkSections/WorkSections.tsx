@@ -5,7 +5,7 @@ import styles from './WorkSections.module.css'
 
 const ProjectProjects = () => (
   <div>
-    <Heading variant="h3">Products</Heading>
+    <Heading variant="h3">Projects</Heading>
 
     <Project heading="Electron Screenshot Tool (WIP)" href="https://github.com/rosskuyper/scr">
       An exploration of electron by creating a screenshot sharing tool
@@ -97,9 +97,9 @@ export const WorkSections = () => {
   return (
     <div className={styles.workSections}>
       <ProjectProjects />
+      <HandbookProjects />
       <TerraformProjects />
       <BoilerplateProjects />
-      <HandbookProjects />
     </div>
   )
 }
