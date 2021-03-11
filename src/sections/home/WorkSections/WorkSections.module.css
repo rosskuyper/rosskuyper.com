@@ -10,4 +10,5 @@
 .workSections > div {
   width: 48%; /* fallback */
   width: calc(50% - 1rem);
+  margin-block-end: 1.875rem;
 }
