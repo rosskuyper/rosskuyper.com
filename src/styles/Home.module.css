@@ -5,8 +5,8 @@
   flex-direction: column;
 }
 
-@media all and (min-width: 520px) and (max-width: 699px) {
+@media (max-width: 450px) {
   .main {
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 1.5rem;
   }
 }

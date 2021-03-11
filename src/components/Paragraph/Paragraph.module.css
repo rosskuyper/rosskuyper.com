@@ -18,3 +18,13 @@
   composes: paragraph;
   font-size: 0.675rem;
 }
+
+@media (max-width: 450px) {
+  .standard {
+    font-size: 1rem;
+  }
+
+  .small {
+    font-size: 0.8rem;
+  }
+}
