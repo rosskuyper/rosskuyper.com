@@ -13,3 +13,8 @@
   composes: paragraph;
   font-size: 0.9rem;
 }
+
+.tiny {
+  composes: paragraph;
+  font-size: 0.675rem;
+}

@@ -4,6 +4,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 65rem;
+  margin-block-end: 3rem;
 }
 
 .workSections > div {
