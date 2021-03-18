@@ -7,20 +7,28 @@ const ProjectProjects = () => (
   <div>
     <Heading variant="h3">Projects</Heading>
 
-    <Project heading="Electron Screenshot Tool (WIP)" href="https://github.com/rosskuyper/scr">
-      An exploration of electron by creating a screenshot sharing tool
+    <Project heading="Habit Tracker (Backend) [WIP]" href="https://github.com/rosskuyper/habit-api">
+      Serverless backend powered by AWS Lambda (Node/TS) &amp; API-Gateway for a private
+      non-production playground project.
     </Project>
 
-    <Project heading="Habit Tracker - Web (WIP)" href="https://github.com/rosskuyper/habit-web">
-      A habit tracker (intended for private use)
+    <Project
+      heading="Habit Tracker (Mobile) [WIP]"
+      href="https://github.com/rosskuyper/habit-mobile"
+    >
+      React Native playground for a private non-production project.
     </Project>
 
-    <Project heading="React Hooks (WIP)" href="https://github.com/rosskuyper/react-hooks">
-      The (slow) start of what will hopefully become a collection of generally useful React hooks
+    <Project heading="MacOS Dotfiles" href="https://github.com/rosskuyper/dotfiles">
+      MacOS dotfiles for consistent OS and developer env configuration (forked from
+      mathiasbynens/dotfiles).
     </Project>
 
-    <Project heading="rosskuyper.com (WIP)" href="https://github.com/rosskuyper/rosskuyper.com">
-      This very website!
+    <Project
+      heading="French Verb Drills"
+      href="https://github.com/rosskuyper/francais-rosskuyper-com"
+    >
+      Simple interface for helping learn the wonderful world of French verb conjugations.
     </Project>
   </div>
 )
@@ -78,7 +86,7 @@ const HandbookProjects = () => (
 
     <Project
       heading="Getting to know an engineering team (set of questions)."
-      href="https://handbook.rosskuyper.com/"
+      href="https://handbook.rosskuyper.com/leadership/getting-to-know-a-team/"
     >
       A collection of questions that might help figure out what it would actually be like working at
       a company day to day
@@ -86,7 +94,7 @@ const HandbookProjects = () => (
 
     <Project
       heading="Leadership learnings from Silicon Valley"
-      href="https://handbook.rosskuyper.com/"
+      href="https://handbook.rosskuyper.com/leadership/lessons-from-silicon-valley-leadership/"
     >
       Collated learnings from talking to various people in positions of leadership
     </Project>
